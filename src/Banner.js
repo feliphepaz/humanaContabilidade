@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from './img/ilustra.png';
-import './banner.css';
+import './css/banner.css';
 
 const Banner = () => {
     return (

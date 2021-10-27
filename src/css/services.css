@@ -1,0 +1,17 @@
+.services .container {
+    flex-direction: column;
+}
+
+.services .container > p {
+    max-width: 700px;
+    line-height: var(--lineHeight);
+    text-align: center;
+    margin: 40px auto;
+}
+
+.services .container > h2 {
+    margin-top: 60px;
+    font-size: var(--size48);
+    color: var(--primary);
+    text-align: center;
+}
