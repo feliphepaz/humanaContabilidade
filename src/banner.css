@@ -1,0 +1,31 @@
+.banner {
+    margin-top: 60px;
+}
+
+.banner-text {
+    margin-top: 140px;
+    width: 40%;
+}
+
+.banner-img {
+    width: 60%;
+}
+
+.banner-text h1 {
+    font-size: var(--size48);
+}
+
+.banner-text h1 span {
+    display: block;
+    color: var(--primary);
+}
+
+.banner-text p {
+    margin: 40px 0;
+    max-width: 500px;
+    line-height: var(--lineHeight);
+}
+
+.banner-btns .btn {
+    margin-left: 20px;
+}

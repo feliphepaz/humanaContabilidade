@@ -1,0 +1,28 @@
+.header {
+    margin-top: 40px;
+}
+
+.header div {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    color: var(--secundary);
+}
+
+.menu ul li {
+    margin-right: 60px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0px;
+}
+
+.logo img {
+    width: 400px;
+}
