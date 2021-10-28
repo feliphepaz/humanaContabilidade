@@ -1,0 +1,74 @@
+.benefits {
+    background: var(--secundaryLight);
+    padding: 60px 0;
+}
+
+.benefits .container > h2 {
+    font-size: var(--size48);
+    color: var(--primary);
+    text-align: left;
+    width: 30%;
+}
+
+.benefits .container > h2 span {
+    color: var(--secundary);
+}
+
+.benefits-itens {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.benefits-itens li h3 {
+    color: var(--primary);
+    font-size: var(--size24);
+    margin-bottom: 10px;
+    font-weight: var(--fontSemiBold);
+}
+
+.benefits-itens li {
+    max-width: 250px;
+}
+
+.benefits-itens li p {
+    font-weight: var(--fontMedium);
+    font-size: var(--size12);
+    line-height: 20px;
+}
+
+.benefit-title {
+    display: flex;
+}
+
+.benefit-title span {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 0px 12px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.digital span {
+    background: var(--icon1);
+    box-shadow: 0px 0px 20px rgba(125, 221, 254, .5);
+}
+
+.consultoria span {
+    background: var(--icon2);
+    box-shadow: 0px 0px 20px rgba(24, 223, 188, .5);
+}
+
+.profissionais span {
+    background: var(--icon3);
+    box-shadow: 0px 0px 20px rgba(118, 103, 222, .5);
+}
+
+.benefit-title span img {
+    width: 25px;
+}
+
+.benefit-title h3 {
+    width: 80%;
+}

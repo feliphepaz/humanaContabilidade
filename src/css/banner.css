@@ -21,9 +21,14 @@
 }
 
 .banner-text p {
-    margin: 40px 0;
+    margin: 20px 0;
     max-width: 500px;
     line-height: var(--lineHeight);
+}
+
+.banner-btns {
+    margin-top: 60px;
+    display: block;
 }
 
 .banner-btns .btn {

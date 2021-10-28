@@ -1,18 +1,24 @@
 :root {
     --primary: #423984;
     --secundary: #afadbd;
+    --secundaryLight: #fafafe;
+    --icon1: #7dddfe;
+    --icon2: #18dfbc;
+    --icon3: #7667de;
     --base1: #fff;
     --base2: #000;
     --font: 'Montserrat', sans-serif;
     --fontMedium: 500;
     --fontSemiBold: 600;
     --fontBold: 700;
+    --size12: 0.75em;
     --size16: 1em;
     --size18: 1.125em;
     --size24: 1.5em;
     --size32: 2em;
     --size48: 3em;
     --lineHeight: 30px;
+    --lineHeightAlt: 20px
 }
 
 .container {

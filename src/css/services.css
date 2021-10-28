@@ -1,4 +1,5 @@
 .services .container {
+    margin: 100px auto 140px auto;
     flex-direction: column;
 }
 
@@ -6,12 +7,44 @@
     max-width: 700px;
     line-height: var(--lineHeight);
     text-align: center;
-    margin: 40px auto;
+    margin: 40px auto 60px auto;
+    font-weight: var(--fontMedium);
 }
 
 .services .container > h2 {
-    margin-top: 60px;
     font-size: var(--size48);
     color: var(--primary);
     text-align: center;
+    font-weight: var(--fontSemiBold);
+}
+
+.services-nav {
+    display: flex;
+}
+
+.services-nav a {
+    display: block;
+    width: 50%;
+    height: 290px;
+    border-radius: 10px;
+    display: flex;
+    color: var(--base1);
+    font-size: var(--size32);
+    font-weight: var(--fontSemiBold);
+    align-items: flex-end;
+    padding: 0 0 40px 60px;
+}
+
+.services-nav a:first-child {
+    background: url(../img/abrirempresa.png) center center no-repeat;
+    background-size: cover;
+}
+
+.services-nav a:last-child {
+    background: url(../img/migrarempresa.png) center center no-repeat;
+    background-size: cover;
+}
+
+.services-nav a + a {
+    margin-left: 140px;
 }
