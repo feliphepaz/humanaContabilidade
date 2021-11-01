@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/socialproof.css';
 import eduardo from './img/eduardo.png';
+import star from './img/star.png';
 
 const SocialProof = () => {
     return (
@@ -34,7 +35,7 @@ const SocialProof = () => {
                 <p>Lorem ipsum dolor sit amet.</p>
                 <ul className='documentaries'>
                     <li>
-                        <div>
+                        <div className='profile'>
                             <div>
                                 <img src={eduardo}></img>
                             </div>
@@ -46,9 +47,16 @@ const SocialProof = () => {
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <div className='rating'>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                        </div>
                     </li>
                     <li>
-                        <div>
+                        <div className='profile'>
                             <div>
                                 <img src={eduardo}></img>
                             </div>
@@ -60,6 +68,13 @@ const SocialProof = () => {
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <div className='rating'>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                            <img src={star}></img>
+                        </div>
                     </li>
                 </ul>
             </div>
