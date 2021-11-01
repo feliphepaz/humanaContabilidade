@@ -6,6 +6,8 @@ import Banner from './Banner';
 import Services from './Services';
 import Benefits from './Benefits';
 import SocialProof from './SocialProof';
+import Contact from './Contact';
+import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +16,8 @@ ReactDOM.render(
     <Services />
     <Benefits />
     <SocialProof />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

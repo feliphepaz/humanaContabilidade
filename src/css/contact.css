@@ -1,0 +1,80 @@
+.contact {
+    padding: 140px 0;
+}
+
+.info {
+    width: 50%;
+}
+
+.info p {
+    font-weight: var(--fontMedium);
+    font-size: var(--size18);
+    margin: 40px 0 60px 0;
+}
+
+.contact-items {
+    display: flex;
+}
+
+.contact-items li + li {
+    margin-left: 40px;
+}
+
+.contact-items li {
+    font-weight: var(--fontMedium);
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-items li h4 {
+    color: var(--primary);
+    font-weight: var(--fontBold);
+    margin-bottom: 10px;
+}
+
+.contact-items li::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 28px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.tel::before {
+    background: url(../img/call.png) no-repeat center center;
+}
+
+.mail::before {
+    background: url(../img/mail.png) no-repeat center center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.field {
+    border: none;
+    padding: 30px 0;
+    border-bottom: 2px solid var(--secundary);
+    width: 100%;
+    outline: none;
+}
+
+.form div input {
+    width: calc(50% - 20px);
+}
+
+.form div input + input {
+    margin-left: 40px;
+}
+
+.form input::placeholder {
+    font-weight: var(--fontSemiBold);
+    font-family: var(--font);
+    color: var(--secundary);
+    font-size: var(--size18);
+}
+

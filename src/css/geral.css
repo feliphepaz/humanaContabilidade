@@ -1,5 +1,7 @@
 :root {
     --primary: #423984;
+    --primaryLight: #5c50b1;
+    --primaryBold: #30286c;
     --secundary: #afadbd;
     --secundaryLight: #fafafe;
     --icon1: #7dddfe;
@@ -34,11 +36,22 @@ body {
     font-size: var(--size16);
 }
 
-.portal, .cta, .btn {
+.portal, .cta, .btn, .submit {
     color: var(--base1);
     background: var(--primary);
     padding: 20px;
     border-radius: 10px;
+}
+
+.submit {
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    width: initial;
+    align-self: start;
+    font-family: var(--font);
+    font-size: var(--size16);
+    font-weight: var(--fontSemiBold);
 }
 
 .btn {

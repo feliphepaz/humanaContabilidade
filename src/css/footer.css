@@ -1,0 +1,114 @@
+.footer {
+    background: var(--primary);
+    padding: 100px 0;
+}
+
+.footer .banner-btns {
+    margin-top: 35px;
+}
+
+.footer .banner-btns .cta {
+    background: var(--icon3);
+}
+
+.footer .banner-btns .btn {
+    background: var(--primaryLight);
+}
+
+.footer .container {
+    flex-direction: column;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divide-footer {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--primaryLight);
+    margin: 80px 0;
+}
+
+.footer .container p {
+    font-size: var(--size32);
+    line-height: 50px;
+    color: var(--base1);
+    max-width: 600px;
+}
+
+.navegation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    width: 30%;
+}
+
+.navegation nav h4 {
+    color: var(--base1);
+    font-weight: var(--fontBold);
+    font-size: var(--size18);
+}
+
+.navegation nav ul li a {
+    color: var(--base1);
+    font-weight: var(--fontMedium);
+}
+
+.navegation nav ul li {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.social ul li::before {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.facebook::before {
+    background: url(../img/facebook.png);
+}
+
+.instagram::before {
+    background: url(../img/instagram.png);
+}
+
+.youtube::before {
+    background: url(../img/youtube.png);
+    width: 22px !important;
+    height: 15px !important;
+}
+
+.linkedin::before {
+    background: url(../img/linkedin.png);
+}
+
+.copy .container {
+    justify-content: space-between;
+}
+
+.copy {
+    background: var(--primaryBold);
+    padding: 20px 0;
+}
+
+.copy p {
+    font-size: var(--size12);
+    font-weight: var(--fontMedium);
+    color: var(--base1);
+}
+
+
+
+
+
+
