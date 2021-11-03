@@ -1,5 +1,5 @@
 .banner {
-    margin: 60px auto;
+    margin-bottom: 60px;
 }
 
 .banner-text {
@@ -24,13 +24,4 @@
     margin: 20px 0;
     max-width: 500px;
     line-height: var(--lineHeight);
-}
-
-.banner-btns {
-    margin-top: 60px;
-    display: block;
-}
-
-.banner-btns .btn {
-    margin-left: 20px;
 }

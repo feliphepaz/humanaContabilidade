@@ -1,8 +1,8 @@
 import React from 'react';
-import './css/benefits.css';
-import globe from './img/globe.png';
-import search from './img/search.png';
-import suitcase from './img/suitcase.png';
+import './Benefits.css';
+import globe from '../Assets/globe.png';
+import search from '../Assets/search.png';
+import suitcase from '../Assets/suitcase.png';
 
 const Benefits = () => {
     return (

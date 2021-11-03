@@ -75,21 +75,21 @@
 }
 
 .facebook::before {
-    background: url(../img/facebook.png);
+    background: url(./Assets/facebook.png);
 }
 
 .instagram::before {
-    background: url(../img/instagram.png);
+    background: url(./Assets/instagram.png);
 }
 
 .youtube::before {
-    background: url(../img/youtube.png);
+    background: url(./Assets/youtube.png);
     width: 22px !important;
     height: 15px !important;
 }
 
 .linkedin::before {
-    background: url(../img/linkedin.png);
+    background: url(./Assets/linkedin.png);
 }
 
 .copy .container {
@@ -98,7 +98,7 @@
 
 .copy {
     background: var(--primaryBold);
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .copy p {

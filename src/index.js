@@ -1,23 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style.css';
-import Header from './Header';
-import Banner from './Banner';
-import Services from './Services';
-import Benefits from './Benefits';
-import SocialProof from './SocialProof';
-import Contact from './Contact';
-import Footer from './Footer';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Banner />
-    <Services />
-    <Benefits />
-    <SocialProof />
-    <Contact />
-    <Footer />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

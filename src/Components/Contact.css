@@ -42,11 +42,11 @@
 }
 
 .tel::before {
-    background: url(../img/call.png) no-repeat center center;
+    background: url(../Assets/call.png) no-repeat center center;
 }
 
 .mail::before {
-    background: url(../img/mail.png) no-repeat center center;
+    background: url(../Assets/mail.png) no-repeat center center;
 }
 
 .form {

@@ -1,6 +1,6 @@
 import React from 'react'
-import './css/services.css'
-import clientes from './img/clientesdecontabilidade.jpg';
+import './Services.css'
+import clientes from '../Assets/clientesdecontabilidade.jpg';
 
 const Services = () => {
     return (

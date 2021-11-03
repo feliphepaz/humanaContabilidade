@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/socialproof.css';
-import eduardo from './img/eduardo.png';
-import star from './img/star.png';
+import './SocialProof.css';
+import eduardo from '../Assets/eduardo.png';
+import star from '../Assets/star.png';
 
 const SocialProof = () => {
     return (

@@ -36,12 +36,12 @@
 }
 
 .services-nav a:first-child {
-    background: url(../img/abrirempresa.png) center center no-repeat;
+    background: url(../Assets/abrirempresa.png) center center no-repeat;
     background-size: cover;
 }
 
 .services-nav a:last-child {
-    background: url(../img/migrarempresa.png) center center no-repeat;
+    background: url(../Assets/migrarempresa.png) center center no-repeat;
     background-size: cover;
 }
 

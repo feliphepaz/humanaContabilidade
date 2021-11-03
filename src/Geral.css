@@ -57,3 +57,12 @@ body {
 .btn {
     background: var(--secundary);
 }
+
+.banner-btns {
+    margin-top: 60px;
+    display: block;
+}
+
+.banner-btns .btn {
+    margin-left: 20px;
+}
