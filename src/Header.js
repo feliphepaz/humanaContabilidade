@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './Assets/logo.png';
 import './Header.css';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
@@ -11,9 +12,9 @@ function Header() {
         </div>
         <nav className='menu'>
           <ul>
-            <li><a href='#'>Home</a></li>
-            <li><a href='#'>Empresa</a></li>
-            <li><a href='#'>Serviços</a></li>
+            <li><NavLink to="/" end>Home</NavLink></li>
+            <li><NavLink to="empresa" end>Empresa</NavLink></li>
+            <li><NavLink to="servicos" end>Serviços</NavLink></li>
             <li><a href='#'>Parceiros</a></li>
             <li><a href='#'>Contato</a></li>
           </ul>

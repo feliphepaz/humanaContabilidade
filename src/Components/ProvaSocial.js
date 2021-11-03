@@ -1,9 +1,9 @@
 import React from 'react';
-import './SocialProof.css';
+import './ProvaSocial.css';
 import eduardo from '../Assets/eduardo.png';
 import star from '../Assets/star.png';
 
-const SocialProof = () => {
+const ProvaSocial = () => {
     return (
         <>
         <section className='statistics'>
@@ -83,4 +83,4 @@ const SocialProof = () => {
     )
 }
 
-export default SocialProof
+export default ProvaSocial

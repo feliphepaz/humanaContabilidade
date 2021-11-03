@@ -1,7 +1,7 @@
 import React from 'react';
-import './Contact.css';
+import './Contato.css';
 
-const Contact = () => {
+const Contato = () => {
     return (
         <section className='contact'>
             <div className='container'>
@@ -40,4 +40,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contato

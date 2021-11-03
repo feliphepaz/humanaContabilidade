@@ -1,8 +1,8 @@
 import React from 'react'
-import './Services.css'
+import './Servicos.css'
 import clientes from '../Assets/clientesdecontabilidade.jpg';
 
-const Services = () => {
+const Servicos = () => {
     return (
         <section className='services'>
             <img src={clientes}></img>
@@ -18,4 +18,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Servicos

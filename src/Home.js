@@ -1,18 +1,18 @@
 import React from 'react'
 import Banner from './Components/Banner';
-import Services from './Components/Services';
-import Benefits from './Components/Benefits';
-import SocialProof from './Components/SocialProof';
-import Contact from './Components/Contact';
+import Servicos from './Components/Servicos';
+import Beneficios from './Components/Beneficios';
+import ProvaSocial from './Components/ProvaSocial';
+import Contato from './Components/Contato';
 
 const Home = () => {
     return (
         <>
         <Banner />
-        <Services />
-        <Benefits />
-        <SocialProof />
-        <Contact />
+        <Servicos />
+        <Beneficios />
+        <ProvaSocial />
+        <Contato />
         </>
     )
 }

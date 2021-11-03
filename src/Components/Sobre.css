@@ -1,0 +1,29 @@
+.sobre {
+    background: var(--primary);
+}
+
+.sobre .container {
+    padding-top: 60px;
+}
+
+.sobre .container h2 {
+    font-size: var(--size32);
+    color: var(--base1);
+    margin-bottom: 40px;
+}
+
+.sobre .container p {
+    font-size: var(--size16);
+    font-weight: var(--fontMedium);
+    line-height: var(--lineHeight);
+    color: var(--base1);
+    max-width: 70%;
+}
+
+.sobre-text {
+    width: 50%;
+}
+
+.sobre-img {
+    width: 50%;
+}

@@ -1,10 +1,13 @@
 import React from 'react'
+import Sobre from './Components/Sobre'
+import Historia from './Components/Historia';
 
 const Empresa = () => {
     return (
-        <div>
-            Olaaaaa
-        </div>
+        <>
+        <Sobre />
+        <Historia />
+        </>
     )
 }
 

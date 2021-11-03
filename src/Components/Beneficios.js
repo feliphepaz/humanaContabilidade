@@ -1,10 +1,10 @@
 import React from 'react';
-import './Benefits.css';
+import './Beneficios.css';
 import globe from '../Assets/globe.png';
 import search from '../Assets/search.png';
 import suitcase from '../Assets/suitcase.png';
 
-const Benefits = () => {
+const Beneficios = () => {
     return (
         <section className='benefits'>
             <div className='container'>
@@ -43,4 +43,4 @@ const Benefits = () => {
     )
 }
 
-export default Benefits
+export default Beneficios
