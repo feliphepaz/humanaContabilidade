@@ -15,7 +15,7 @@ function Header() {
             <li><NavLink to="/" end>Home</NavLink></li>
             <li><NavLink to="empresa" end>Empresa</NavLink></li>
             <li><NavLink to="servicos" end>Serviços</NavLink></li>
-            <li><a href='#'>Parceiros</a></li>
+            <li><NavLink to="parceiros" end>Parceiros</NavLink></li>
             <li><a href='#'>Contato</a></li>
           </ul>
         </nav>

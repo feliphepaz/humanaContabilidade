@@ -19,4 +19,5 @@
     margin: 20px 0;
     max-width: 500px;
     line-height: var(--lineHeight);
+    font-weight: var(--fontMedium);
 }

@@ -1,0 +1,83 @@
+.parceiros-intro {
+    padding: 80px 0;
+    background: var(--secundaryLight);
+}
+
+.parceiros-intro .container {
+    justify-content: space-between;
+}
+
+.parceiros-intro-text h2 {
+    font-size: var(--size48);
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.parceiros-intro-text h2 span {
+    color: var(--primary);
+}
+
+.parceiros-intro .container p {
+    max-width: 400px;
+    line-height: var(--lineHeight);
+    font-weight: var(--fontMedium);
+}
+
+.parceiros-intro-text {
+    width: 40%;
+    margin-right: 60px;
+}
+
+.logos {
+    width: 60%;
+}
+
+.logos li {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 5px rgba(118, 103, 222, .3);
+}
+
+.logos li + li {
+    margin-top: 60px;
+}
+
+.logos li img {
+    margin-right: 60px;
+}
+
+.documentario {
+    margin-top: 40px;
+    background: var(--base1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.documentario-perfil {
+    display: flex;
+    font-weight: var(--fontMedium);
+}
+
+.documentario-perfil div img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.documentario-perfil div h4 {
+    color: var(--primary);
+    font-weight: var(--fontBold);
+    margin-bottom: 5px;
+}
+
+.documentario p {
+    margin-top: 10px;
+    font-size: var(--size12);
+    line-height: var(--lineHeightAlt) !important;
+}
+
+.logo-empresa {
+    width: 200px;
+}
