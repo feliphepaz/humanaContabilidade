@@ -16,7 +16,7 @@ function Header() {
             <li><NavLink to="empresa" end>Empresa</NavLink></li>
             <li><NavLink to="servicos" end>Serviços</NavLink></li>
             <li><NavLink to="parceiros" end>Parceiros</NavLink></li>
-            <li><a href='#'>Contato</a></li>
+            <li><NavLink to="contato" end>Contato</NavLink></li>
           </ul>
         </nav>
         <a className='portal' href='#'>Área do Cliente</a>

@@ -3,7 +3,7 @@ import Banner from './Components/Banner';
 import Servicos from './Components/Servicos';
 import Beneficios from './Components/Beneficios';
 import ProvaSocial from './Components/ProvaSocial';
-import Contato from './Components/Contato';
+import ContatoContent from './Components/ContatoContent';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
         <Servicos />
         <Beneficios />
         <ProvaSocial />
-        <Contato />
+        <ContatoContent />
         </>
     )
 }

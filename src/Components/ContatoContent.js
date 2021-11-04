@@ -1,9 +1,10 @@
 import React from 'react';
-import './Contato.css';
+import './ContatoContent.css';
 
-const Contato = () => {
+const ContatoContent = (props) => {
+    console.log(props.id);
     return (
-        <section className='contact'>
+        <section className='contact' id={props.id === 'page' ? 'contact-page' : ''}>
             <div className='container'>
                 <div className='info'>
                     <h2><span>Pronto para realizar</span>um trabalho conosco?</h2>
@@ -25,14 +26,14 @@ const Contato = () => {
                 </div>
                 <form className='form'>
                     <div>
-                        <input type='text' className='field' placeholder='Nome Completo'></input>
-                        <input type='mail' className='field' placeholder='E-mail'></input>    
+                        <input type='text' className='field' id={props.id === 'page' ? 'field-page' : ''} placeholder='Nome Completo'></input>
+                        <input type='mail' className='field' id={props.id === 'page' ? 'field-page' : ''} placeholder='E-mail'></input>    
                     </div>
                     <div>
-                        <input type='tel' className='field' placeholder='Telefone'></input>
-                        <input type='text' className='field' placeholder='Empresa'></input>    
+                        <input type='tel' className='field' id={props.id === 'page' ? 'field-page' : ''} placeholder='Telefone'></input>
+                        <input type='text' className='field' id={props.id === 'page' ? 'field-page' : ''} placeholder='Empresa'></input>    
                     </div>
-                    <input type='text' className='field' placeholder='Eu preciso de serviços para minha empresa'></input>    
+                    <input type='text' className='field' id={props.id === 'page' ? 'field-page' : ''} placeholder='Eu preciso de serviços para minha empresa'></input>    
                     <input type='submit' className='submit' value='Enviar formulário'></input>
                 </form>
             </div>  
@@ -40,4 +41,4 @@ const Contato = () => {
     )
 }
 
-export default Contato
+export default ContatoContent

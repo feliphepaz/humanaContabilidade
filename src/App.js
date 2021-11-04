@@ -7,6 +7,7 @@ import Footer from './Footer';
 import Empresa from './Empresa';
 import Produtos from './Produtos';
 import Parceiros from './Parceiros';
+import Contato from './Contato';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='empresa' element={<Empresa />} />
         <Route path='servicos' element={<Produtos />} />
         <Route path='parceiros' element={<Parceiros />} />
+        <Route path='contato' element={<Contato />} />
       </Routes>
       <Footer />
     </BrowserRouter>

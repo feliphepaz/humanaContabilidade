@@ -2,6 +2,10 @@
     padding: 140px 0;
 }
 
+#contact-page {
+    background: var(--secundaryLight);
+}
+
 .info {
     width: 50%;
 }
@@ -61,6 +65,10 @@
     border-bottom: 2px solid var(--secundary);
     width: 100%;
     outline: none;
+}
+
+#field-page {
+    background: var(--secundaryLight);
 }
 
 .form div input {
