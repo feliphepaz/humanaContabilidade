@@ -1,5 +1,5 @@
 .sobre {
-    background: var(--primary);
+    background: var(--secundaryLight);
 }
 
 .sobre .container {
@@ -7,16 +7,22 @@
 }
 
 .sobre .container h2 {
-    font-size: var(--size32);
-    color: var(--base1);
+    font-size: var(--size48);
     margin-bottom: 40px;
+}
+
+.sobre .container h2 span:last-child {
+    color: var(--primary);
+}
+
+.sobre .container h2 span:first-child {
+    color: var(--icon3);
 }
 
 .sobre .container p {
     font-size: var(--size16);
     font-weight: var(--fontMedium);
     line-height: var(--lineHeight);
-    color: var(--base1);
     max-width: 70%;
 }
 
