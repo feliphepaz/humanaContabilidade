@@ -15,11 +15,6 @@
     font-size: var(--size48);
 }
 
-.banner-text h1 span, .info h2 span {
-    display: block;
-    color: var(--primary);
-}
-
 .banner-text p {
     margin: 20px 0;
     max-width: 500px;

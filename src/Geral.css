@@ -66,3 +66,8 @@ body {
 .banner-btns .btn {
     margin-left: 20px;
 }
+
+.banner-text h1 span, .info h2 span, .historia-text h2 span {
+    display: block;
+    color: var(--primary);
+}

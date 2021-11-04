@@ -1,0 +1,41 @@
+.timeline {
+    padding: 100px 0;
+    background: var(--secundaryLight);
+}
+
+.timeline-itens {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.timeline-itens li {
+    max-width: 200px;
+}
+
+.timeline-itens li img {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.timeline-itens li p {
+    font-weight: var(--fontMedium);
+    font-size: var(--size12);
+    line-height: 20px;
+}
+
+.timeline-itens li h3 {
+    color: var(--primary);
+    font-size: var(--size24);
+    margin-bottom: 10px;
+    font-weight: var(--fontSemiBold);
+}
+
+.timeline-itens li legend {
+    text-align: center;
+    font-weight: var(--fontMedium);
+    font-size: var(--size12);
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}

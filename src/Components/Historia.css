@@ -9,7 +9,6 @@
 .historia .container h2 {
     font-size: var(--size48);
     margin-bottom: 40px;
-    color: var(--base1);
 }
 
 .historia .container p {
@@ -17,14 +16,11 @@
     font-weight: var(--fontMedium);
     line-height: var(--lineHeight);
     max-width: 70%;
-    color: var(--base1);
 }
 
 .historia-text {
     width: 50%;
-    background: var(--primary);
     padding: 60px;
-    border-radius: 40px 40px 0px 0px;
 }
 
 .historia-img {
