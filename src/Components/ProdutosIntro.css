@@ -1,0 +1,39 @@
+.produtos-intro {
+    background: var(--secundaryLight);
+}
+
+.produtos-intro .container {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.produtos-intro .container h2 {
+    font-size: var(--size48);
+}
+
+.produtos-intro .container h2:first-child {
+    color: var(--icon3);
+}
+
+.produtos-intro .container h2:nth-child(2) {
+    color: var(--primaryLight);
+}
+
+.produtos-intro .container h2:nth-child(3) {
+    color: var(--primary);
+}
+
+.produtos-intro-text {
+    width: 50%;
+    margin-top: 80px;
+}
+
+.produtos-intro-img img {
+    width: 580px;
+}
+
+.produtos-intro-text p {
+    line-height: var(--lineHeight);
+    margin-top: 40px;
+    font-weight: var(--fontMedium);
+}

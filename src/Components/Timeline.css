@@ -10,7 +10,12 @@
 }
 
 .timeline-itens li {
-    max-width: 200px;
+    max-width: 250px;
+    border: 2px solid var(--primary);
+    background: var(--secundaryLight);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 5px rgba(118, 103, 222, .3);
 }
 
 .timeline-itens li img {
@@ -34,8 +39,10 @@
 
 .timeline-itens li legend {
     text-align: center;
-    font-weight: var(--fontMedium);
+    font-weight: var(--fontBold);
+    color: var(--icon3);
     font-size: var(--size12);
     letter-spacing: 5px;
     margin-bottom: 10px;
+    margin-right: -5px;
 }

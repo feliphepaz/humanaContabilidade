@@ -1,0 +1,65 @@
+.produtos-box {
+    padding: 100px 0;
+}
+
+.produtos-box .container {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.abrir-empresa, .migrar-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 60px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 5px rgba(118, 103, 222, .3);
+}
+
+.abrir-empresa .cta, .migrar-empresa .cta {
+    margin-top: 20px;
+}
+
+.abrir-empresa img, .migrar-empresa img {
+    width: 20%;
+}
+
+.abrir-empresa ul, .migrar-empresa ul {
+    width: 400px;
+    text-align: left;
+}
+
+.abrir-empresa ul li, .migrar-empresa ul li {
+    line-height: var(--lineHeight);
+    display: flex;
+    align-items: center;
+    font-size: var(--size12);
+    color: var(--primary);
+}
+
+.abrir-empresa ul li::before, .migrar-empresa ul li::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid var(--base1);
+    box-shadow: 0px 0px 0px 2px var(--icon1);
+    background: var(--icon1);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.abrir-empresa h3, .migrar-empresa h3 {
+    color: var(--primary);
+    font-size: var(--size32);
+    margin: 40px 0px 20px 0;
+    font-weight: var(--fontSemiBold);
+}
+
+.abrir-empresa p, .migrar-empresa p {
+    line-height: var(--lineHeight);
+    font-weight: var(--fontMedium);
+    margin-bottom: 20px;
+    max-width: 400px;
+}

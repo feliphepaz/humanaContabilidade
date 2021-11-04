@@ -1,10 +1,12 @@
 import React from 'react'
-import AbrirEmpresa from './Components/AbrirEmpresa'
+import ProdutosBox from './Components/ProdutosBox';
+import ProdutosIntro from './Components/ProdutosIntro';
 
 const Produtos = () => {
     return (
         <>
-        <AbrirEmpresa />
+        <ProdutosIntro />
+        <ProdutosBox />
         </>
     )
 }
