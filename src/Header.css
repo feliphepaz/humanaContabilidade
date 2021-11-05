@@ -2,7 +2,7 @@
     padding: 40px;
     position: fixed;
     width: 100%;
-    margin-top: -160px;
+    margin-top: -130px;
     background: var(--base1);
     transition: .2s;
 }
@@ -62,7 +62,7 @@
     top: 50px;
     padding: 40px 40px 60px 40px;
     animation: showMenu .3s forwards;
-    z-index: 20000;
+    z-index: 3;
 }
 
 @keyframes showMenu {

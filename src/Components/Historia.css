@@ -29,13 +29,10 @@
 
 @media (max-width: 1180px) {
     .historia .container {
-        position: relative;
         justify-content: flex-end;
     }
-    .historia-img {
-        position: absolute;
-        bottom: 0;
-        left: 0;
+    .sobre .container {
+        align-items: center;
     }
 }
 
@@ -45,7 +42,6 @@
         flex-direction: column;
     }
     .historia .container {
-        position: relative;
         justify-content: flex-end;
     }
     .historia-img {
@@ -66,10 +62,6 @@
 @media (max-width: 380px) {
     .sobre-img {
         display: none;
-    }
-    .sobre-text {
-        max-width: 100%;
-        width: 100%;
     }
     .historia .container p {
         max-width: 100%;
