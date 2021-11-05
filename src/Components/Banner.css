@@ -5,6 +5,7 @@
 .banner-text {
     margin-top: 140px;
     width: 40%;
+    padding: 0px 40px;
 }
 
 .banner-img {
@@ -20,4 +21,43 @@
     max-width: 500px;
     line-height: var(--lineHeight);
     font-weight: var(--fontMedium);
+}
+
+@media (max-width: 1200px) {
+    .menu, .menu .portal {
+        display: none;
+    }
+
+    .banner {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    .banner-text {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .banner .container {
+        flex-direction: column;
+    }
+
+    .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-text p {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .banner-btns {
+        margin-bottom: 60px;
+    }
+
+    .banner-img {
+        margin: 0 auto;
+    }
 }

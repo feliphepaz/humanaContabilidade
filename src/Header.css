@@ -26,3 +26,55 @@
 .logo img {
     width: 400px;
 }
+
+.btn-mobile {
+    display: none;
+    background: none;
+    border: none;
+    width: 40px;
+}
+
+.menu-mobile {
+    display: none;
+    background: var(--secundaryLight);
+    border-radius: 10px;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    padding: 40px 40px 60px 40px;
+    animation: showMenu .3s forwards;
+}
+
+@keyframes showMenu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.menu-mobile ul li + li {
+    margin-top: 40px;
+}
+.menu-mobile ul li:last-child {
+    margin-top: 50px;
+}
+
+@media (max-width: 1430px) {
+    .menu ul li {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu, .header .container > .portal {
+        display: none;
+    }
+    .btn-mobile {
+        display: block;
+    }
+    .header .container {
+        position: relative;
+    }
+}

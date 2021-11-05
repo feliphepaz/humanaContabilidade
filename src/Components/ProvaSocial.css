@@ -94,3 +94,16 @@
 .rating img + img {
     margin-left: 10px;
 }
+
+@media (max-width: 1480px) {
+    .documentaries {
+        flex-direction: column;
+    }
+    .documentaries li {
+        width: 100%;
+    }
+    .documentaries li + li {
+        margin-left: 0px ;
+        margin-top: 60px;
+    }
+}
