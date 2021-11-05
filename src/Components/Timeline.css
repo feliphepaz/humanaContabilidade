@@ -46,3 +46,22 @@
     margin-bottom: 10px;
     margin-right: -5px;
 }
+
+@media (max-width: 1360px) {
+    .timeline-itens {
+        flex-direction: column;
+    }
+
+    .timeline-itens li {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .timeline-itens li + li {
+        margin-top: 20px;
+    }
+
+    .timeline-itens li img {
+        width: 30px;
+    }
+}

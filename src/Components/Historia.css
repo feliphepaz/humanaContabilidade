@@ -26,3 +26,52 @@
 .historia-img {
     width: 50%;
 }
+
+@media (max-width: 1180px) {
+    .historia .container {
+        position: relative;
+        justify-content: flex-end;
+    }
+    .historia-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .historia .container {
+        padding-top: 0px;
+        flex-direction: column;
+    }
+    .historia .container {
+        position: relative;
+        justify-content: flex-end;
+    }
+    .historia-img {
+        display: none;
+    }
+    .historia-text {
+        width: 100%;
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 440px) {
+    .historia .container h2 {
+        font-size: var(--size32);
+    }
+}
+
+@media (max-width: 380px) {
+    .sobre-img {
+        display: none;
+    }
+    .sobre-text {
+        max-width: 100%;
+        width: 100%;
+    }
+    .historia .container p {
+        max-width: 100%;
+    }
+}

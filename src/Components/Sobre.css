@@ -33,3 +33,46 @@
 .sobre-img {
     width: 50%;
 }
+
+@media (max-width: 1120px) {
+    .sobre .container {
+        padding-bottom: 80px;
+        position: relative;
+    }
+    .sobre-img {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+    }
+}
+
+@media (max-width: 740px) {
+    .sobre-img {
+        width: 40%;
+    }
+    .sobre-text p {
+        max-width: 90% !important;
+    }
+    .sobre-text {
+        width: 60%;
+    }
+}
+
+@media (max-width: 440px) {
+    .sobre .container h2 {
+        font-size: var(--size32);
+    }
+}
+
+@media (max-width: 380px) {
+    .sobre-img {
+        display: none;
+    }
+    .sobre-text p {
+        max-width: 100% !important;
+    }
+    .sobre-text {
+        max-width: 100%;
+        width: 100%;
+    }
+}
