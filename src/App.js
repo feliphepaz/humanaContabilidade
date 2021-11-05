@@ -8,6 +8,7 @@ import Empresa from './Empresa';
 import Produtos from './Produtos';
 import Parceiros from './Parceiros';
 import Contato from './Contato';
+import Portal from './Portal';
 
 function animeScroll() {
     const target = document.querySelectorAll('[data-anime]');
@@ -36,6 +37,7 @@ const App = () => {
         <Route path='servicos' element={<Produtos />} />
         <Route path='parceiros' element={<Parceiros />} />
         <Route path='contato' element={<Contato />} />
+        <Route path='portal' element={<Portal />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -70,10 +70,10 @@ function Header() {
             <li><NavLink to="servicos" end>Serviços</NavLink></li>
             <li><NavLink to="parceiros" end>Parceiros</NavLink></li>
             <li><NavLink to="contato" end>Contato</NavLink></li>
-            <li><a className='portal' href='#'>Área do Cliente</a></li>
+            <li><NavLink className='portal' to="portal" end>Área do Cliente</NavLink></li>
           </ul>
         </nav>
-        <a className='portal' href='#'>Área do Cliente</a>
+        <NavLink className='portal' to="portal" end>Área do Cliente</NavLink>
       </div>
     </header>
   );
