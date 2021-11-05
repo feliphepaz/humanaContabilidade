@@ -13,13 +13,13 @@ const ContatoContent = (props) => {
                         <li className='tel'>
                             <div>
                                 <h4>Fale conosco</h4>
-                                (11) 0000-00000
+                                <a href='#'>(11) 0000-00000</a>
                             </div>
                         </li>
                         <li className='mail'>
                             <div>
                                 <h4>E-mail</h4>
-                                contato@humanacontabil.com.br
+                                <a href='#'>contato@humanacontabil.com.br</a>
                             </div>
                         </li>
                     </ul>

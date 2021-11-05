@@ -78,3 +78,31 @@
         position: relative;
     }
 }
+
+@media (max-width: 630px) {
+    .header .container {
+        padding: 0px;
+    }
+    .logo {
+        margin-right: 10px;
+    }
+    .menu-mobile {
+        right: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-mobile {
+        width: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .menu-mobile  ul li:last-child {
+        display: flex;
+        margin-top: 30px;
+    }
+    .menu-mobile {
+        padding: 40px;
+    }
+}

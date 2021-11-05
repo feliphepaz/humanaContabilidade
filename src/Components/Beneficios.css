@@ -72,3 +72,31 @@
 .benefit-title h3 {
     width: 80%;
 }
+
+@media (max-width: 1270px) {
+    .benefits .container {
+        flex-direction: column;
+    }
+    .benefits .container h2 {
+        margin-bottom: 60px;
+    }
+    .benefits-itens {
+        width: 100%;
+    }
+    .benefits-itens li + li {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 810px) {
+    .benefits-itens {
+        flex-direction: column;
+    }
+    .benefits-itens li {
+        max-width: 100%;
+    }
+    .benefits-itens li + li {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+}

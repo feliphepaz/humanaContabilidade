@@ -107,6 +107,37 @@
     color: var(--base1);
 }
 
+@media (max-width: 1030px) {
+    .logo-footer {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .navegation {
+        flex-direction: column;
+    }
+    .navegation nav + nav {
+        margin-top: 60px
+    }
+}
+
+@media (max-width: 430px) {
+    .call-to-action {
+        flex-direction: column;
+    }
+    .call-to-action p {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .call-to-action .banner-btns {
+        width: 100%;
+    }
+    .call-to-action .banner-btns a {
+        align-self: center;
+    }
+}
+
 
 
 

@@ -21,7 +21,7 @@
 
 .social-proof {
     background: var(--primary);
-    padding: 100px;
+    padding: 100px 0px;
 }
 
 .social-proof .container {
@@ -105,5 +105,39 @@
     .documentaries li + li {
         margin-left: 0px ;
         margin-top: 60px;
+    }
+}
+
+@media (max-width: 813px) {
+    .documentaries li p, .rating, .profile {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 705px) {
+    .data {
+        flex-direction: column;
+    }
+    .data li + li {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 510px) {
+    .profile {
+        flex-direction: column;
+    }
+    .profile div img {
+        width: 40px !important;
+        margin-right: 0px !important;
+    }
+    .profile div:last-child {
+        margin-top: 20px;
+    }
+    .rating img {
+        width: 10px;
+    }
+    .documentaries li {
+        padding: 10px;
     }
 }

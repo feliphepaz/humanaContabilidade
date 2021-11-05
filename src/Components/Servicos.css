@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.services img {
+    width: 100%;
+}
+
 .services .container > p {
     max-width: 700px;
     line-height: var(--lineHeight);
@@ -47,4 +51,23 @@
 
 .services-nav a + a {
     margin-left: 140px;
+}
+
+@media (max-width: 945px) {
+    .services-nav a + a {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 520px) {
+    .services-nav {
+        flex-direction: column;
+    }
+    .services-nav a {
+        width: 100%;
+    }
+    .services-nav a + a {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
 }

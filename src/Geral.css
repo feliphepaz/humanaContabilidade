@@ -72,3 +72,38 @@ body {
     display: block;
     color: var(--primary);
 }
+
+@media (max-width: 997px) {
+    .banner-btns {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-btns {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .banner-text .banner-btns {
+        margin-bottom: 40px !important;
+    }
+    .btn {
+        margin-left: 0px !important;
+    }
+    .call-to-action p {
+        max-width: 50%;
+    }
+    .call-to-action .banner-btns {
+        width: 50%;
+    }
+    .call-to-action .banner-btns a {
+        align-self: flex-end;
+    }
+    .banner-btns a + a {
+        margin-top: 20px;
+    }
+    .banner-text .banner-btns a {
+        align-self: center;
+    }
+    .call-to-action p {
+        margin-right: 40px;
+    }
+}

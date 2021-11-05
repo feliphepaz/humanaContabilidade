@@ -86,3 +86,42 @@
     font-size: var(--size18);
 }
 
+.tel a, .mail a {
+    color: var(--secundary);
+}
+
+@media (max-width: 1260px) {
+    .info {
+        margin-right: 60px;
+    }
+    .mail a {
+        display: block;
+        width: 100%;
+        word-break: break-all;
+    }
+    .contact-items li::before {
+        display: none;
+    }
+}
+
+@media (max-width: 715px) {
+    .contact .container {
+        flex-direction: column;
+    }
+    .contact-items li::before {
+        display: block;
+    }
+    .info, .form {
+        width: 100%;
+    }
+    .info {
+        margin-right: 0px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 598px) {
+    .contact-items li::before {
+        display: none;
+    }
+}
