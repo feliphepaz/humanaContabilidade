@@ -63,3 +63,42 @@
     margin-bottom: 20px;
     max-width: 400px;
 }
+
+@media (max-width: 920px) {
+    .abrir-empresa ul, .migrar-empresa ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 695px) {
+    .produtos-box .container {
+        flex-direction: column;
+    }
+    .abrir-empresa ul, .migrar-empresa ul {
+        align-items: flex-start;
+    }
+    .abrir-empresa, .migrar-empresa {
+        width: 100%;
+    }
+    .abrir-empresa {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .abrir-empresa ul, .migrar-empresa ul {
+        align-items: center;
+    }
+}
+
+@media (max-width: 405px) {
+    .abrir-empresa ul, .migrar-empresa ul {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .abrir-empresa ul li + li, .migrar-empresa ul li + li {
+        margin-top: 10px;
+    }
+}
