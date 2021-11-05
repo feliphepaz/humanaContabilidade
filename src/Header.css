@@ -5,6 +5,7 @@
     margin-top: -130px;
     background: var(--base1);
     transition: .2s;
+    z-index: 2000;
 }
 
 .header.active-scroll {
@@ -32,6 +33,15 @@
 
 .menu ul li a {
     color: var(--secundary);
+    padding: 5px;
+    border: 2px solid transparent;
+    transition: .2s;
+}
+
+.menu ul li a:hover, .menu ul li a.active {
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 10px;
 }
 
 .menu ul li {

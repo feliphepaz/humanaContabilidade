@@ -5,7 +5,7 @@ import contadores from '../Assets/contadores.jpg';
 const ProdutosIntro = () => {
     return (
         <section className='produtos-intro'>
-            <div className='container'>
+            <div className='container animate' data-anime='left'>
                 <div className='produtos-intro-text'>
                     <h2>Os melhores serviços</h2>
                     <h2>Com a melhor qualidade</h2>

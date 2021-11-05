@@ -6,7 +6,7 @@ import star from '../Assets/star.png';
 const ProvaSocial = () => {
     return (
         <>
-        <section className='statistics'>
+        <section className='statistics' data-anime='left'>
             <div className='container'>
                 <ul className='data'>
                     <li>

@@ -6,7 +6,7 @@ const Servicos = () => {
     return (
         <section className='services'>
             <img src={clientes}></img>
-            <div className='container'>
+            <div className='container' data-anime='down'>
                 <h2>No que podemos te ajudar?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
                 <nav className='services-nav'>

@@ -9,7 +9,7 @@ import saoFrancisco from '../Assets/icon-sao-francisco.png';
 const Timeline = () => {
     return (
         <section className='timeline'>
-            <div className='container'>
+            <div className='container' data-anime='down'>
                 <ul className='timeline-itens'>
                     <li>
                         <img src={asteca}></img>

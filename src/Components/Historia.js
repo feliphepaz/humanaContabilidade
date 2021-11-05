@@ -5,7 +5,7 @@ import boneca2 from '../Assets/boneca_3.png'
 const Historia = () => {
     return (
         <section className='historia'>
-            <div className='container'>
+            <div className='container' data-anime='right'>
                 <div className='historia-img'>
                     <img src={boneca2}></img>
                 </div>

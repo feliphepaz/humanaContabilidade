@@ -42,6 +42,10 @@ function handleMobile(e) {
   }
 }
 
+function toTop() {
+  window.scrollTo(0, 0);
+}
+
 function Header() {
   return (
     <header className='header'>
@@ -51,11 +55,11 @@ function Header() {
         </div>
         <nav className='menu'>
           <ul>
-            <li><NavLink to="/" end>Home</NavLink></li>
-            <li><NavLink to="empresa" end>Empresa</NavLink></li>
-            <li><NavLink to="servicos" end>Serviços</NavLink></li>
-            <li><NavLink to="parceiros" end>Parceiros</NavLink></li>
-            <li><NavLink to="contato" end>Contato</NavLink></li>
+            <li><NavLink onClick={toTop} to="/" end>Home</NavLink></li>
+            <li><NavLink onClick={toTop} to="empresa" end>Empresa</NavLink></li>
+            <li><NavLink onClick={toTop} to="servicos" end>Serviços</NavLink></li>
+            <li><NavLink onClick={toTop} to="parceiros" end>Parceiros</NavLink></li>
+            <li><NavLink onClick={toTop} to="contato" end>Contato</NavLink></li>
           </ul>
         </nav>
         <button className='btn-mobile' onClick={handleMobile}><img src={menu}></img></button>

@@ -6,7 +6,7 @@ import burjAlArab from '../Assets/icon-burj-al-arab.png';
 const ProdutosBox = () => {
     return (
         <section className='produtos-box'>
-            <div className='container'>
+            <div className='container' data-anime='down'>
                 <div className='abrir-empresa'>
                     <img src={estatua}></img>
                     <h3>Abrir Empresa</h3>

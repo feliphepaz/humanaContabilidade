@@ -9,6 +9,23 @@ import Produtos from './Produtos';
 import Parceiros from './Parceiros';
 import Contato from './Contato';
 
+function animeScroll() {
+    const target = document.querySelectorAll('[data-anime]');
+    const animationClass = 'animate';
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+    target.forEach(element => {
+        if (windowTop > element.offsetTop) {
+            element.classList.add(animationClass);
+        } else if(element.classList.contains(animationClass)) {
+            element.classList.remove(animationClass);
+        }
+    })
+}
+
+animeScroll();
+
+window.addEventListener('scroll', animeScroll);
+
 const App = () => {
   return (
     <BrowserRouter>

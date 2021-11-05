@@ -42,6 +42,15 @@ body {
     background: var(--primary);
     padding: 20px;
     border-radius: 10px;
+    border: 2px solid transparent !important;
+    transition: .4s;
+}
+
+.portal:hover, .cta:hover, .btn:hover, .submit:hover {
+    border: 2px solid var(--base1) !important;
+    box-shadow: 0px 0px 0px 2px var(--icon3);
+    background: var(--base1) !important;
+    color: var(--icon3) !important;
 }
 
 .submit {
@@ -71,6 +80,60 @@ body {
 .banner-text h1 span, .info h2 span, .historia-text h2 span {
     display: block;
     color: var(--primary);
+}
+
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime='left'] {
+  transform: translate3d(-20px, 0px, 0px);
+}
+
+[data-anime='left'].animate {
+  animation: left .5s forwards;
+}
+
+[data-anime='right'].animate {
+  animation: right .5s forwards;
+}
+
+[data-anime='down'].animate {
+  animation: down .5s forwards;
+}
+
+@keyframes down {
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, -30px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes left {
+  0% {
+    opacity: 0;
+    transform: translate3d(-30px, 0px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes right {
+  0% {
+    opacity: 0;
+    transform: translate3d(30px, 0px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
 }
 
 @media (max-width: 997px) {

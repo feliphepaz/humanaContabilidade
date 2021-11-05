@@ -5,7 +5,7 @@ const ContatoContent = (props) => {
     console.log(props.id);
     return (
         <section className='contact' id={props.id === 'page' ? 'contact-page' : ''}>
-            <div className='container'>
+            <div className={props.id === 'page' ? 'container animate' : 'container'} data-anime='left'>
                 <div className='info'>
                     <h2><span>Pronto para realizar</span>um trabalho conosco?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur</p>
