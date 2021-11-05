@@ -1,5 +1,24 @@
 .header {
     padding: 40px;
+    position: fixed;
+    width: 100%;
+    margin-top: -160px;
+    background: var(--base1);
+    transition: .2s;
+}
+
+.header.active-scroll {
+    padding: 10px;
+    background: var(--primary);
+}
+
+.header.active-scroll .portal {
+    color: var(--base1);
+    background: var(--icon3);
+}
+
+.header.active-scroll .menu ul li a {
+    color: var(--base1);
 }
 
 .header div {

@@ -1,4 +1,5 @@
 .banner {
+    margin-top: 160px;
     margin-bottom: 60px;
 }
 
@@ -29,7 +30,7 @@
     }
 
     .banner {
-        margin-top: 60px;
+        padding-top: 60px;
         margin-bottom: 100px;
     }
 

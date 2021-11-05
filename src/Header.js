@@ -1,11 +1,22 @@
 import React from 'react';
-import logo from './Assets/logo.png';
+import logoMain from './Assets/logo.png';
 import './Header.css';
 import { NavLink } from 'react-router-dom';
 import menu from './Assets/menu.png';
+import logoAlt from './Assets/logo-alt.png';
 import cancel from './Assets/cancel.png';
 
-console.log(cancel);
+window.addEventListener('scroll', () => {
+  const header = document.querySelector('.header');
+  const logo = document.querySelector('.logo img');
+  if (window.pageYOffset > 50) {
+    header.classList.add('active-scroll');
+    logo.src = logoAlt;
+  } else {
+    header.classList.remove('active-scroll');
+    logo.src = logoMain;
+  }
+})
 
 function handleMobile(e) {
   const element = e.currentTarget;
@@ -25,7 +36,7 @@ function Header() {
     <header className='header'>
       <div className='container'>
         <div className='logo'>
-          <img src={logo}></img>
+          <img src={logoMain}></img>
         </div>
         <nav className='menu'>
           <ul>
