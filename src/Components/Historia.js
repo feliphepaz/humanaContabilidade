@@ -7,7 +7,7 @@ const Historia = () => {
         <section className='historia'>
             <div className='container' data-anime='right'>
                 <div className='historia-img'>
-                    <img src={boneca2}></img>
+                    <img src={boneca2} alt=''></img>
                 </div>
                 <div className='historia-text'>
                     <h2><span>Uma história</span> que te contabiliza.</h2>

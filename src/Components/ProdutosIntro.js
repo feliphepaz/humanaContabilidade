@@ -16,7 +16,7 @@ const ProdutosIntro = () => {
                     </p>
                 </div>
                 <div className='produtos-intro-img'>
-                    <img src={contadores}></img>
+                    <img src={contadores} alt=''></img>
                 </div>
             </div>
         </section>

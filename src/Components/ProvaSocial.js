@@ -3,6 +3,23 @@ import './ProvaSocial.css';
 import eduardo from '../Assets/eduardo.png';
 import star from '../Assets/star.png';
 
+const perfis = [
+    {
+        id: 1,
+        nome: 'Eduardo Correa',
+        ocupação: 'Cliente',
+        foto: eduardo,
+        avaliação: 5,
+    },
+    {
+        id: 2,
+        nome: 'Eduardo Correa',
+        ocupação: 'Cliente',
+        foto: eduardo,
+        avaliação: 5,
+    }
+]
+
 const ProvaSocial = () => {
     return (
         <>
@@ -34,48 +51,27 @@ const ProvaSocial = () => {
                 <h3>Clientes Satisfeitos</h3>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <ul className='documentaries'>
-                    <li>
-                        <div className='profile'>
-                            <div>
-                                <img src={eduardo}></img>
+                    {perfis.map((per) => (
+                        <li key={per.id}>
+                            <div className='profile'>
+                                <div>
+                                    <img src={per.foto} alt=''></img>
+                                </div>
+                                <div>
+                                    <h4>{per.nome}</h4>
+                                    <span>{per.ocupação}</span>
+                                </div>
                             </div>
-                            <div>
-                                <h4>Eduardo Correa</h4>
-                                <span>Cliente</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <div className='rating'>
+                                {[...Array(per.avaliação)].map((item, index) => (
+                                    <img key={index} src={star} alt=''></img>
+                                ))}
                             </div>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        </p>
-                        <div className='rating'>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                        </div>
-                    </li>
-                    <li>
-                        <div className='profile'>
-                            <div>
-                                <img src={eduardo}></img>
-                            </div>
-                            <div>
-                                <h4>Eduardo Correa</h4>
-                                <span>Cliente</span>
-                            </div>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        </p>
-                        <div className='rating'>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                            <img src={star}></img>
-                        </div>
-                    </li>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </section>

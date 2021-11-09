@@ -1,8 +1,8 @@
 import React from 'react';
 import './ContatoContent.css';
+import { Link } from 'react-router-dom';
 
 const ContatoContent = (props) => {
-    console.log(props.id);
     return (
         <section className='contact' id={props.id === 'page' ? 'contact-page' : ''}>
             <div className={props.id === 'page' ? 'container animate' : 'container'} data-anime='left'>
@@ -13,13 +13,13 @@ const ContatoContent = (props) => {
                         <li className='tel'>
                             <div>
                                 <h4>Fale conosco</h4>
-                                <a href='#'>(11) 0000-00000</a>
+                                <Link to=''>(11) 0000-00000</Link>
                             </div>
                         </li>
                         <li className='mail'>
                             <div>
                                 <h4>E-mail</h4>
-                                <a href='#'>contato@humanacontabil.com.br</a>
+                                <Link to=''>contato@humanacontabil.com.br</Link>
                             </div>
                         </li>
                     </ul>

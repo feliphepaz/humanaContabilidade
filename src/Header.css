@@ -22,6 +22,22 @@
     color: var(--base1);
 }
 
+.menu-mobile ul li a:hover, .menu-mobile ul li a.active {
+    text-decoration: underline;
+}
+
+.menu-mobile ul li a:focus, .menu-mobile ul li a {
+    color: var(--primary);
+}
+
+.menu-mobile ul li a.portal {
+    color: var(--base1);
+}
+
+.menu-mobile ul li a.portal:hover, .menu-mobile ul li a.portal.active {
+    text-decoration: none;
+}
+
 .header div {
     align-items: center;
     justify-content: space-between;

@@ -15,13 +15,13 @@ const Parceiros = () => {
                 </div>
                 <ul className='logos animate' data-anime='right'>
                     <li>
-                        <img className='logo-empresa' src={logoRandom1}></img>
+                        <img className='logo-empresa' src={logoRandom1} alt=''></img>
                         <div>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
-                                        <img src={eduardo}></img>
+                                        <img src={eduardo} alt=''></img>
                                     </div>
                                     <div>
                                         <h4>Paulo Silveira</h4>
@@ -33,13 +33,13 @@ const Parceiros = () => {
                         </div>
                     </li>
                     <li>
-                        <img className='logo-empresa' src={logoRandom2}></img>
+                        <img className='logo-empresa' src={logoRandom2} alt=''></img>
                         <div>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
-                                        <img src={eduardo}></img>
+                                        <img src={eduardo} alt=''></img>
                                     </div>
                                     <div>
                                         <h4>Gustavo Ribeiro</h4>
@@ -51,13 +51,13 @@ const Parceiros = () => {
                         </div>
                     </li>
                     <li>
-                        <img className='logo-empresa' src={logoRandom3}></img>
+                        <img className='logo-empresa' src={logoRandom3} alt=''></img>
                         <div>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
-                                        <img src={eduardo}></img>
+                                        <img src={eduardo} alt=''></img>
                                     </div>
                                     <div>
                                         <h4>Cinthia Fugazzi</h4>

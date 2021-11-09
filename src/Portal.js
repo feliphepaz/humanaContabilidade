@@ -15,12 +15,12 @@ const Produtos = () => {
                 <ul className='apps-icons'>
                     <li className='apps'>
                         <h3>Baixe o aplicativo!</h3>
-                        <a href='#'><img src={googlePlay}></img></a>
-                        <a href='#'><img src={appStore}></img></a>
+                        <a href='http://www.google.com'><img src={googlePlay} alt=''></img></a>
+                        <a href='http://www.google.com'><img src={appStore} alt=''></img></a>
                     </li>
                     <li className='web'>
                         <h3>Ou então acesse diretamente pelo seu navegador</h3>
-                        <a className='portal'>Acessar</a>
+                        <a href='http://www.google.com' className='portal'>Acessar</a>
                     </li>
                 </ul>
             </div>

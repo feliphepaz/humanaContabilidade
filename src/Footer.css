@@ -59,6 +59,10 @@
     font-weight: var(--fontMedium);
 }
 
+.navegation nav ul li a:hover, .navegation nav ul li a.active {
+    text-decoration: underline;
+}
+
 .navegation nav ul li {
     margin-top: 20px;
     display: flex;

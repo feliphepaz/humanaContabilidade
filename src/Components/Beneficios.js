@@ -13,7 +13,7 @@ const Beneficios = () => {
                     <li>
                         <div className='benefit-title digital'>
                             <span>
-                                <img src={globe}></img>
+                                <img src={globe} alt=''></img>
                             </span>
                             <h3>Ambiente Digital</h3>
                         </div>
@@ -22,7 +22,7 @@ const Beneficios = () => {
                     <li>
                         <div className='benefit-title consultoria'>
                             <span>
-                                <img src={search}></img>
+                                <img src={search} alt=''></img>
                             </span>
                             <h3>Consultoria em processo</h3>
                         </div>
@@ -31,7 +31,7 @@ const Beneficios = () => {
                     <li>
                         <div className='benefit-title profissionais'>
                             <span>
-                                <img src={suitcase}></img>
+                                <img src={suitcase} alt=''></img>
                             </span>
                             <h3>Profissionais Capacitados</h3>
                         </div>
