@@ -22,6 +22,7 @@
     max-width: 500px;
     line-height: var(--lineHeight);
     font-weight: var(--fontMedium);
+    font-size: var(--size12);
 }
 
 @media (max-width: 1200px) {

@@ -1,0 +1,62 @@
+.equipe {
+    padding: 100px 0;
+    background: var(--primary);
+}
+
+.equipe .container li {
+    width: 33,33%;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0px 8px 20px rgba(34, 28, 53, 0.3);
+    border-radius: 20px;
+}
+
+.equipe .container li + li {
+    margin-left: 60px;
+}
+
+.equipe .container li h3 {
+    color: var(--primary);
+    font-size: var(--size32);
+    font-weight: var(--fontSemiBold);
+}
+
+.equipe .container li legend {
+    margin: 15px 0;
+    color: var(--icon3);
+    font-size: var(--size12);
+}
+
+.equipe .container li p {
+    font-weight: var(--fontMedium);
+    font-size: var(--size12);
+    line-height: 20px;
+}
+
+.funcionario-dados {
+    background: linear-gradient(180deg, var(--base1) 0%, rgba(255, 255, 255, 0) 100%), var(--secundaryLight);
+    padding: 20px;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 8px 20px rgba(34, 28, 53, 0.3);
+    border-bottom: 4px solid var(--icon3);
+}
+
+@media (max-width: 1030px) {
+    .equipe .container li + li {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    .equipe .container {
+        flex-direction: column;
+    }
+    .equipe .container li + li {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+}
