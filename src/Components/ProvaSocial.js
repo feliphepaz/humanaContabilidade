@@ -6,17 +6,19 @@ import star from '../Assets/star.png';
 const perfis = [
     {
         id: 1,
-        nome: 'Eduardo Correa',
-        ocupação: 'Cliente',
+        nome: 'Marisa Costa',
+        ocupação: 'Diretora Financeira da Orange',
         foto: eduardo,
         avaliação: 5,
+        comentario: 'Sou muito grata por tudo o que a Humana fez pela minha empresa. Sempre muito prestativos e atenciosos.',
     },
     {
         id: 2,
-        nome: 'Eduardo Correa',
-        ocupação: 'Cliente',
+        nome: 'João Augusto',
+        ocupação: 'C.E.O da Orange',
         foto: eduardo,
         avaliação: 5,
+        comentario: 'Com muito prazer eu falo que a Humana cuida de todos os meus negócios. É o meu escritório de confiança, não troco por nenhuma outra.',
     }
 ]
 
@@ -49,7 +51,7 @@ const ProvaSocial = () => {
         <section className='social-proof'>
             <div className='container'>
                 <h3>Clientes Satisfeitos</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Veja o que estão falando de nós.</p>
                 <ul className='documentaries'>
                     {perfis.map((per) => (
                         <li key={per.id}>
@@ -62,9 +64,7 @@ const ProvaSocial = () => {
                                     <span>{per.ocupação}</span>
                                 </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            </p>
+                            <p>{per.comentario}</p>
                             <div className='rating'>
                                 {[...Array(per.avaliação)].map((item, index) => (
                                     <img key={index} src={star} alt=''></img>

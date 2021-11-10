@@ -8,7 +8,7 @@ const ContatoContent = (props) => {
             <div className={props.id === 'page' ? 'container animate' : 'container'} data-anime='left'>
                 <div className='info'>
                     <h2><span>Pronto para realizar</span>um trabalho conosco?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>Entre em contato! Será um prazer poder te ajudar.</p>
                     <ul className='contact-items'>
                         <li className='tel'>
                             <div>

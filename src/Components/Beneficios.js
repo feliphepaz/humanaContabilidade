@@ -17,7 +17,7 @@ const Beneficios = () => {
                             </span>
                             <h3>Ambiente Digital</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Oferecemos toda uma plataforma para você consultar os seus documentos sem a necessidade de papeladas.</p>
                     </li>
                     <li>
                         <div className='benefit-title consultoria'>
@@ -26,7 +26,7 @@ const Beneficios = () => {
                             </span>
                             <h3>Consultoria em processo</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Prestamos todo o suporte e atendimento para acompanhar os processos do seu negócio.</p>
                     </li>
                     <li>
                         <div className='benefit-title profissionais'>
@@ -35,7 +35,7 @@ const Beneficios = () => {
                             </span>
                             <h3>Profissionais Capacitados</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Nossos contadores são credenciados ao CRC além de possuirem anos de experiência no mercado.</p>
                     </li>
                 </ul>
             </div>

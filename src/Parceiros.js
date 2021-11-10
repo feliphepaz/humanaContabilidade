@@ -11,7 +11,7 @@ const Parceiros = () => {
             <div className='container'>
                 <div className='parceiros-intro-text animate' data-anime='left'>
                     <h2>Nossos clientes são a prova de um trabalho <span>feito com amor</span></h2>
-                    <p>Nossa empresa sempre teve um objetivo muito claro, que é oferecer aos nossos clientes soluções para agilizar e tornar profissional seus serviços. Por isso contamos com parceiros que mantêm o mesmo método de trabalho de nossa empresa.</p>
+                    <p>Nossa empresa sempre teve como qualidade oferecer aos nossos clientes soluções para agilizar e tornar profissional seus serviços. Por isso contamos com parceiros que mantêm o mesmo método de trabalho de nossa empresa.</p>
                 </div>
                 <ul className='logos animate' data-anime='right'>
                     <li>

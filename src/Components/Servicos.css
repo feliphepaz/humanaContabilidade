@@ -15,6 +15,14 @@
     font-weight: var(--fontMedium);
 }
 
+.services .container > p a {
+    color: var(--primary);
+}
+
+.services .container > p a:hover {
+    text-decoration: underline;
+}
+
 .services .container > h2 {
     font-size: var(--size48);
     color: var(--primary);

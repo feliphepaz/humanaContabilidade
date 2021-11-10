@@ -10,8 +10,8 @@ const Footer = () => {
             <div className='container'>
                 <div className='call-to-action'>
                     <p>
-                        Lorem ipsum dolor sit dua,
-                        consectetur adipisicing.
+                            Conhecer o homem - esta é a base de todo o sucesso.
+                            <legend>Charles Chaplin</legend>
                     </p>
                     <div className='banner-btns'>
                             <a href='/' className='cta'>Fale Conosco</a>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProdutosIntro.css';
 import contadores from '../Assets/contadores.jpg';
+import { Link } from 'react-router-dom';
 
 const ProdutosIntro = () => {
     return (
@@ -10,9 +11,7 @@ const ProdutosIntro = () => {
                     <h2>Os melhores serviços</h2>
                     <h2>Com a melhor qualidade</h2>
                     <h2>Com o melhor preço</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                    <br></br>
-                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                    <p>Tenha uma gestão fiscal e financeira para sua empresa. Somos especialistas na parte de tributos e contabilidade para prestadoras de serviços, como empresas da área da saúde, corretoras de seguro, consultoria financeira e empresarial, tecnologia da informação, e muitas outras. Para saber mais, <Link onClick={() => window.scrollTo(0,0)} to='/contato'>entre em contato</Link>.
                     </p>
                 </div>
                 <div className='produtos-intro-img'>

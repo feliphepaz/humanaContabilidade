@@ -8,7 +8,9 @@ const Sobre = () => {
             <div className='container animate' data-anime='left'>
                 <div className='sobre-text'>
                     <h2>O que é a <span>Humana</span> <span>Contabilidade?</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>
+                        A Humana Contabilidade presta assessoria através de uma equipe treinada e qualificada nas áreas contábil, fiscal, pessoal, imposto de renda, auditoria, societária e tributária, com foco em prestadoras de serviços.
+                    </p>
                 </div>
                 <div className='sobre-img'>
                     <img src={boneca1} alt=''></img>

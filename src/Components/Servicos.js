@@ -9,7 +9,7 @@ const Servicos = () => {
             <img src={clientes} alt=''></img>
             <div className='container' data-anime='down'>
                 <h2>No que podemos te ajudar?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+                <p>Além dos serviços mais procurados, os de abrir e migrar empresa, também oferecemos outros tipos de consultorias para diversos outros ramos. <Link onClick={() => window.scrollTo(0,0)} to='servicos'>Saiba mais</Link>.</p>
                 <nav className='services-nav'>
                     <Link to=''>Abrir<br></br>empresa</Link>
                     <Link to=''>Migrar<br></br>empresa</Link>

@@ -8,11 +8,11 @@ const Banner = () => {
         <section className='banner'>
             <div className='container animate' data-anime='down'>
                 <div className='banner-text'>
-                    <h1><span>Sucesso é a soma</span>de pequenos esforços</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+                    <h1><span>Contabilidade humanizada</span>do jeito que você queria</h1>
+                    <p>A Humana é o escritório de contabilidade com expertise em atender empresas de prestação de serviços em geral.</p>
                     <div className='banner-btns'>
                         <Link to="contato" className='cta'>Fale conosco</Link>
-                        <Link to="contato" className='btn'>Clique aqui</Link>
+                        <Link to="empresa" className='btn'>Conheça mais</Link>
                     </div>
                 </div>
                 <div className='banner-img'>

@@ -24,6 +24,16 @@
     justify-content: space-between;
 }
 
+.call-to-action p {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action p legend {
+    font-size: 0.4em;
+    font-weight: var(--fontMedium);
+}
+
 .divide-footer {
     display: block;
     height: 2px;
