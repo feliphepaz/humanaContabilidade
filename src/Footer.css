@@ -64,12 +64,12 @@
     font-size: var(--size18);
 }
 
-.navegation nav ul li a {
+.navegation nav ul li a, .navegation nav ul li {
     color: var(--base1);
     font-weight: var(--fontMedium);
 }
 
-.navegation nav ul li a:hover, .navegation nav ul li a.active {
+.navegation nav ul li a:hover {
     text-decoration: underline;
 }
 

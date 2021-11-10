@@ -17,7 +17,7 @@ const Parceiros = () => {
                     <li>
                         <img className='logo-empresa' src={logoRandom1} alt=''></img>
                         <div>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            <p>A Abrandis é uma empresa brasileira do setor varejista, mais especificamente na venda de tecidos, cuja matriz está instalada em São Bernardo do Campo. </p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
@@ -28,14 +28,14 @@ const Parceiros = () => {
                                         <span>C.E.O da Abrandis</span>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>A Humana fez um milagre com a Abrandis! Conseguiram resolver todas as nossas pendência em tempo record.</p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <img className='logo-empresa' src={logoRandom2} alt=''></img>
                         <div>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            <p>A Okra é uma empresa de tecnologia e informática brasileira, especializada no desenvolvimento e comercialização de hardware.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
@@ -46,14 +46,14 @@ const Parceiros = () => {
                                         <span>Head de Marketing da Okra</span>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Somos clientes deles desde 2014 e gostamos muito dos serviços prestados.</p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <img className='logo-empresa' src={logoRandom3} alt=''></img>
                         <div>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            <p>Cinthia Doces é uma pequena empresa localizada em Foz do Iguaçu que comercializa bolos e confeitaria em geral.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
@@ -61,10 +61,10 @@ const Parceiros = () => {
                                     </div>
                                     <div>
                                         <h4>Cinthia Fugazzi</h4>
-                                        <span>Diretora Financeira da Kostom T.I</span>
+                                        <span>Microempreendedora</span>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>O suporte que eu tenho na Humana eu não tenho em lugar nenhum, gosto muito dos contadores.</p>
                             </div>
                         </div>
                     </li>
