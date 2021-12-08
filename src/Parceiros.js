@@ -12,6 +12,8 @@ import fprati from './Assets/fprati.png';
 import adayr from './Assets/adayr.png';
 import patricia from './Assets/patricia.png';
 import roberta from './Assets/roberta.png';
+import gaba from './Assets/gaba.png';
+import equilibriumm from './Assets/equilibriumm.png';
 
 const Parceiros = () => {
     return (
@@ -139,6 +141,26 @@ const Parceiros = () => {
                                     </div>
                                 </div>
                                 <p>A 1 ano assumi a clínica médica de meu pai, quando me deparei com uma desorganização vinda por parte do antigo contador. Recebi a indicação de procurar a Dilma e fui supreendida por um serviço de excelência. Hoje sinto-me segura e satisfeita.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='logo-box'>
+                            <img className='logo-empresa' src={equilibriumm} alt=''></img>
+                        </div>
+                        <div>
+                            <p>A Equilibriumm nasceu em 2012 com o propósito de levar a seus pacientes recursos terapêuticos  que proporcionem uma melhor qualidade de vida.</p>
+                            <div className='documentario'>
+                                <div className='documentario-perfil'>
+                                    <div>
+                                        <img src={gaba} alt=''></img>
+                                    </div>
+                                    <div>
+                                        <h4>Danilo Gaba</h4>
+                                        <span>C.E.O da Equilibriumm Consultório Psicológico</span>
+                                    </div>
+                                </div>
+                                <p>Sou grato em ser cliente da Dilma. Confesso ter sido resistente antes do primeiro contato, por sempre ter sido autônomo, mas hoje reconheço ser melhor este formato. Graças a sua paciência e dedicação no apoio das minhas dúvidas e inseguranças.</p>
                             </div>
                         </div>
                     </li>

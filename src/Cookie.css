@@ -1,0 +1,65 @@
+@keyframes slideUp {
+    to {
+      transform: initial;
+      opacity: initial;
+    }
+  }
+  
+  .cookie-container {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    background: #ffffff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 40px;
+    transform: translateY(-30px);
+    opacity: 0;
+    animation: slideUp 0.5s forwards;
+    width: 300px;
+  }
+
+  .cookie-container legend {
+      margin-top: 20px;
+      line-height: var(--lineHeightAlt);
+      font-weight: var(--fontMedium);
+      font-size: var(--size12);
+  }
+
+  .cookie-save {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .cookie p {
+    margin-bottom: 15px;
+    font-size: var(--size16);
+    font-weight: var(--fontMedium);
+    line-height: var(--lineHeightAlt);
+  }
+  
+  .cookie label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: var(--fontMedium);
+  }
+  
+  .cookie label:last-child {
+    margin-bottom: 0px;
+  }
+  
+  .cookie label input {
+    margin-right: 5px;
+  }
+  
+  .cookie-container .cta {
+    align-self: center;
+  }
+
+  @media (max-width: 420px) {
+    .cookie-container {
+      width: 100%;
+      left: 0;
+    }
+  }

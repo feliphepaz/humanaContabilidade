@@ -63,6 +63,12 @@
     }
 }
 
+@media (max-width: 450px) {
+    .banner-text h1 {
+        font-size: var(--size32);
+    }
+}
+
 @media (max-width: 420px) {
     .banner .container {
         padding: 0px;

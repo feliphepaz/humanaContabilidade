@@ -9,6 +9,7 @@ import Produtos from './Produtos';
 import Parceiros from './Parceiros';
 import Contato from './Contato';
 import Portal from './Portal';
+import Cookie from './Cookie';
 
 function animeScroll() {
     const target = document.querySelectorAll('[data-anime]');
@@ -40,6 +41,7 @@ const App = () => {
         <Route path='portal' element={<Portal />} />
       </Routes>
       <Footer />
+      <Cookie />
     </BrowserRouter>
   )
 }

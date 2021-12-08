@@ -13,7 +13,7 @@ const ContatoContent = (props) => {
                         <li className='tel'>
                             <div>
                                 <h4>Fale conosco</h4>
-                                <Link to=''>(11) 5521-0911</Link>
+                                <a href='https://api.whatsapp.com/send?phone=5511992300024' target='_blank'>(11) 99230-0024</a>
                             </div>
                         </li>
                         <li className='mail'>

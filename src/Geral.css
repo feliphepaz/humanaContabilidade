@@ -48,6 +48,9 @@ body {
     border-radius: 10px;
     border: 2px solid transparent !important;
     transition: .4s;
+    font-family: var(--font);
+    font-size: var(--size16);
+    font-weight: var(--fontSemiBold);
 }
 
 .portal:hover, .cta:hover, .btn:hover, .submit:hover {
