@@ -23,6 +23,10 @@
     --lineHeightAlt: 20px
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .container {
     display: flex;
     max-width: 1440px;

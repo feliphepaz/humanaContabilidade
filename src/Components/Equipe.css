@@ -55,6 +55,9 @@
     .equipe .container {
         flex-direction: column;
     }
+    .equipe .container li {
+        width: 100%;
+    }
     .equipe .container li + li {
         margin-left: 0px;
         margin-top: 60px;

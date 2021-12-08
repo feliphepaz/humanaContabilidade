@@ -18,6 +18,11 @@ function Header() {
   const [scroll, setScroll] = React.useState(false);
   const [menuMobile, setMenuMobile] = React.useState(false);
 
+  function toTopAndClose() {
+    window.scrollTo(0,0);
+    setMenuMobile(false);
+  }
+
   function handleChanges() {
     if (scroll && menuMobile) {
       return cancelAlt;
@@ -59,15 +64,15 @@ function Header() {
         <button className='btn-mobile' onClick={() => setMenuMobile(!menuMobile)}><img src={handleChanges()} alt=''></img></button>
         <nav className='menu-mobile' style={menuMobile ? {display: 'block'} : {display: 'none'}}>
           <ul>
-            <li><NavLink onClick={() => window.scrollTo(0,0)} to="/" end>Home</NavLink></li>
-            <li><NavLink onClick={() => window.scrollTo(0,0)} to="empresa">Empresa</NavLink></li>
-            <li><NavLink onClick={() => window.scrollTo(0,0)} to="servicos">Serviços</NavLink></li>
-            <li><NavLink onClick={() => window.scrollTo(0,0)} to="parceiros">Parceiros</NavLink></li>
-            <li><NavLink onClick={() => window.scrollTo(0,0)} to="contato">Contato</NavLink></li>
-            <li><NavLink onClick={() => window.scrollTo(0,0)} className='portal' to="portal">Área do Cliente</NavLink></li>
+            <li><NavLink onClick={toTopAndClose} to="/" end>Home</NavLink></li>
+            <li><NavLink onClick={toTopAndClose} to="empresa">Empresa</NavLink></li>
+            <li><NavLink onClick={toTopAndClose} to="servicos">Serviços</NavLink></li>
+            <li><NavLink onClick={toTopAndClose} to="parceiros">Parceiros</NavLink></li>
+            <li><NavLink onClick={toTopAndClose} to="contato">Contato</NavLink></li>
+            <li><NavLink onClick={toTopAndClose} className='portal' to="portal">Área do Cliente</NavLink></li>
           </ul>
         </nav>
-        <NavLink onClick={() => window.scrollTo(0,0)} className='portal' to="portal">Área do Cliente</NavLink>
+        <NavLink onClick={toTopAndClose} className='portal' to="portal">Área do Cliente</NavLink>
       </div>
     </header>
   );
