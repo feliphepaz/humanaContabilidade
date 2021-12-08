@@ -80,6 +80,12 @@
 
 .logo-empresa {
     width: 200px;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 60px;
 }
 
@@ -107,7 +113,7 @@
     .logos li {
         flex-direction: column;
     }
-    .logo-empresa {
+    .logo-box {
         margin: 0 auto 40px auto;
     }
     .logos li img {

@@ -1,24 +1,25 @@
 import React from 'react';
 import './ProvaSocial.css';
-import eduardo from '../Assets/eduardo.png';
+import patricia from '../Assets/patricia.png';
+import daniele from '../Assets/daniele.png';
 import star from '../Assets/star.png';
 
 const perfis = [
     {
         id: 1,
-        nome: 'Marisa Costa',
-        ocupação: 'Diretora Financeira da Orange',
-        foto: eduardo,
+        nome: 'Daniele Abdo',
+        ocupação: 'C.E.O da Dape Capital',
+        foto: daniele,
         avaliação: 5,
-        comentario: 'Sou muito grata por tudo o que a Humana fez pela minha empresa. Sempre muito prestativos e atenciosos.',
+        comentario: 'Iniciei meu relacionamento com a Humana em 2014 e desde então nossa parceria vem se solidificando a cada dia. Sempre fui bem atendida e a cada nova demanda, a Humana vem me atendendo e superando minhas expectativas!',
     },
     {
         id: 2,
-        nome: 'João Augusto',
-        ocupação: 'C.E.O da Orange',
-        foto: eduardo,
+        nome: 'Dra. Patrícia Salmona',
+        ocupação: 'Diretora da Salmona Clínica Médica',
+        foto: patricia,
         avaliação: 5,
-        comentario: 'Com muito prazer eu falo que a Humana cuida de todos os meus negócios. É o meu escritório de confiança, não troco por nenhuma outra.',
+        comentario: 'A empresa Humana sempre supre 100% das minhas necessidades e solicitações. Prestam um atendimento com profissionalismo, praticidade, simpatia. Nunca fico sem um rápido retorno. Recomendo.',
     }
 ]
 

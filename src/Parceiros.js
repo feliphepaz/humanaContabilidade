@@ -1,9 +1,17 @@
 import React from 'react'
 import './Parceiros.css';
-import logoRandom1 from './Assets/logo-random1.svg';
-import logoRandom2 from './Assets/logo-random2.svg';
-import logoRandom3 from './Assets/logo-random3.svg';
-import eduardo from './Assets/eduardo.png';
+import brooklin from './Assets/brooklin.png';
+import dape from './Assets/dape.png';
+import fpc from './Assets/fpc.png';
+import caema from './Assets/caema.png';
+import patriciasalmona from './Assets/patriciasalmona.png';
+import cepec from './Assets/cepec.png';
+import marcia from './Assets/marcia.png';
+import daniele from './Assets/daniele.png';
+import fprati from './Assets/fprati.png';
+import adayr from './Assets/adayr.png';
+import patricia from './Assets/patricia.png';
+import roberta from './Assets/roberta.png';
 
 const Parceiros = () => {
     return (
@@ -15,56 +23,122 @@ const Parceiros = () => {
                 </div>
                 <ul className='logos animate' data-anime='right'>
                     <li>
-                        <img className='logo-empresa' src={logoRandom1} alt=''></img>
+                        <div className='logo-box'>
+                            <img className='logo-empresa' src={brooklin} alt=''></img>
+                        </div>
                         <div>
-                            <p>A Abrandis é uma empresa brasileira do setor varejista, mais especificamente na venda de tecidos, cuja matriz está instalada em São Bernardo do Campo. </p>
+                            <p>Em atuação no Brasil há 20 anos, a Brooklin é uma seguradora especializada em seguros de vida e na venda personalizada.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
-                                        <img src={eduardo} alt=''></img>
+                                        <img src={marcia} alt=''></img>
                                     </div>
                                     <div>
-                                        <h4>Paulo Silveira</h4>
-                                        <span>C.E.O da Abrandis</span>
+                                        <h4>Marcia Bestel</h4>
+                                        <span>Diretora da Brooklin</span>
                                     </div>
                                 </div>
-                                <p>A Humana fez um milagre com a Abrandis! Conseguiram resolver todas as nossas pendência em tempo record.</p>
+                                <p>A Humana é uma empresa referência em contabilidade! Não tomamos nenhuma decisão contábil, sem consultar a sócia fundadora.</p>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <img className='logo-empresa' src={logoRandom2} alt=''></img>
+                        <div className='logo-box'>
+                            <img className='logo-empresa' src={dape} alt=''></img>
+                        </div>
                         <div>
-                            <p>A Okra é uma empresa de tecnologia e informática brasileira, especializada no desenvolvimento e comercialização de hardware.</p>
+                            <p>A Dape Capital é uma boutique de investimentos em criptomoedas, pautada em um conceito Private de atendimento e gestão de patrimônio.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
-                                        <img src={eduardo} alt=''></img>
+                                        <img src={daniele} alt=''></img>
                                     </div>
                                     <div>
-                                        <h4>Gustavo Ribeiro</h4>
-                                        <span>Head de Marketing da Okra</span>
+                                        <h4>Daniele Abdo</h4>
+                                        <span>C.E.O da Dape Capital</span>
                                     </div>
                                 </div>
-                                <p>Somos clientes deles desde 2014 e gostamos muito dos serviços prestados.</p>
+                                <p> Sempre fui bem atendida e a cada nova demanda, a Humana vem me atendendo e superando minhas expectativas!</p>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <img className='logo-empresa' src={logoRandom3} alt=''></img>
+                        <div className='logo-box'>
+                            <img className='logo-empresa' src={fpc} alt=''></img>
+                        </div>
                         <div>
-                            <p>Cinthia Doces é uma pequena empresa localizada em Foz do Iguaçu que comercializa bolos e confeitaria em geral.</p>
+                            <p>A F Prati Consulting é uma empresa que oferece serviços de engenharia aos seus clientes, no ramo de consultoria em construções.</p>
                             <div className='documentario'>
                                 <div className='documentario-perfil'>
                                     <div>
-                                        <img src={eduardo} alt=''></img>
+                                        <img src={fprati} alt=''></img>
                                     </div>
                                     <div>
-                                        <h4>Cinthia Fugazzi</h4>
-                                        <span>Microempreendedora</span>
+                                        <h4>Fábio Prati</h4>
+                                        <span>Diretor da F Prati Consulting</span>
                                     </div>
                                 </div>
-                                <p>O suporte que eu tenho na Humana eu não tenho em lugar nenhum, gosto muito dos contadores.</p>
+                                <p>Nesse setor complexo devido nossa legislação, é difícil encontrar as respostas corretas, e isso eu tenho obtido da Humana, reduzindo minha exposição a riscos e mantendo minha empresa em dia com suas obrigações.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='logo-box'>
+                            <img className='logo-empresa' src={caema} alt=''></img>
+                        </div>
+                        <div>
+                            <p>A Caema Brasil é uma empresa voltada à consultoria técnica em engenharia de materiais e novas tecnologias.</p>
+                            <div className='documentario'>
+                                <div className='documentario-perfil'>
+                                    <div>
+                                        <img src={adayr} alt=''></img>
+                                    </div>
+                                    <div>
+                                        <h4>Adayr Borro Jr</h4>
+                                        <span>Diretor da Caema Brasil Consultoria</span>
+                                    </div>
+                                </div>
+                                <p>A Humana é uma excelente empresa de contabilidade. Depois de muitas decepções no mercado, finalmente encontrei uma empresa séria, competente e rápida nas respostas.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='logo-box'>
+                            <img className='logo-empresa' src={patriciasalmona} alt=''></img>
+                        </div>
+                        <div>
+                            <p>Dra. Patrícia Salmona é médica pediatra e geneticista especializada em Síndrome de Down. Atualmente comanda a Salmona Clínica Médica.</p>
+                            <div className='documentario'>
+                                <div className='documentario-perfil'>
+                                    <div>
+                                        <img src={patricia} alt=''></img>
+                                    </div>
+                                    <div>
+                                        <h4>Dra. Patrícia Salmona</h4>
+                                        <span>Diretora da Salmona Clínica Médica</span>
+                                    </div>
+                                </div>
+                                <p>A Humana supre 100% das minhas necessidades e solicitações. Prestam um atendimento com profissionalismo, praticidade, simpatia. Nunca fico sem um retorno rápido. Recomendo.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='logo-box'>
+                            <img className='logo-empresa' src={cepec} alt=''></img>
+                        </div>
+                        <div>
+                            <p>A CEPEC-SP é uma clínica de atendimento pediátrico e genético, com foco em Trissomia 21 (Síndrome de Down).</p>
+                            <div className='documentario'>
+                                <div className='documentario-perfil'>
+                                    <div>
+                                        <img src={roberta} alt=''></img>
+                                    </div>
+                                    <div>
+                                        <h4>Roberta Mustacchi</h4>
+                                        <span>Diretora da CEPEC-SP</span>
+                                    </div>
+                                </div>
+                                <p>A 1 ano assumi a clínica médica de meu pai, quando me deparei com uma desorganização vinda por parte do antigo contador. Recebi a indicação de procurar a Dilma e fui supreendida por um serviço de excelência. Hoje sinto-me segura e satisfeita.</p>
                             </div>
                         </div>
                     </li>
