@@ -121,6 +121,15 @@
     color: var(--base1);
 }
 
+.restrict {
+    color: var(--icon3);
+    margin-left: 5px;
+}
+
+.restrict:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 1030px) {
     .logo-footer {
         display: none;

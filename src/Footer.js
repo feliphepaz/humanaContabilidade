@@ -62,7 +62,7 @@ const Footer = () => {
 
         <section className='copy'>
             <div className='container'>
-                <p>2021 - Humana Contabilidade. Todos os direitos reservados.</p>
+                    <p>2021 - Humana Contabilidade. Todos os direitos reservados. <a href='https://sistemaidocumentos.com.br/idocumentos/home/login/humana' className='restrict' target='_blank'>Área restrita</a></p>
                 <p>Design by Agência Formulaviral</p>
             </div>
         </section>
