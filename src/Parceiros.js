@@ -1,12 +1,11 @@
 import React from 'react'
 import './Parceiros.css';
-import brooklin from './Assets/brooklin.png';
-import dape from './Assets/dape.png';
-import fpc from './Assets/fpc.png';
-import caema from './Assets/caema.png';
-import patriciasalmona from './Assets/patriciasalmona.png';
-import cepec from './Assets/cepec.png';
-import equilibriumm from './Assets/equilibriumm.png';
+import ctech from './Assets/ctech.png';
+import rhsc from './Assets/rhsc.png';
+import itc from './Assets/itc.png';
+import pier from './Assets/pier.png';
+import nuvtech from './Assets/nuvtech.png';
+
 
 const Parceiros = () => {
     return (
@@ -19,58 +18,42 @@ const Parceiros = () => {
                 <ul className='logos animate' data-anime='right'>
                     <li>
                         <div className='logo-box'>
-                            <img className='logo-empresa' src={brooklin} alt=''></img>
+                            <img className='logo-empresa' src={ctech} alt=''></img>
                         </div>
                         <div>
-                            <p>Em atuação no Brasil há 20 anos, a Brooklin é uma seguradora especializada em seguros de vida e na venda personalizada.</p>
+                            <p>Fundada em 2003, a CTECH é uma empresa de tecnologia especializada no atendimento de micro e pequenas empresas.</p>
                         </div>
                     </li>
                     <li>
                         <div className='logo-box'>
-                            <img className='logo-empresa' src={dape} alt=''></img>
+                            <img className='logo-empresa' src={rhsc} alt=''></img>
                         </div>
                         <div>
-                            <p>A Dape Capital é uma boutique de investimentos em criptomoedas, pautada em um conceito Private de atendimento e gestão de patrimônio.</p>
+                            <p>A RHSC é uma empresa que firma parcerias para oferecer serviços de qualidade em todos os processos e rotinas do Departamento Pessoal.</p>
                         </div>
                     </li>
                     <li>
                         <div className='logo-box'>
-                            <img className='logo-empresa' src={fpc} alt=''></img>
+                            <img className='logo-empresa' src={itc} alt=''></img>
                         </div>
                         <div>
-                            <p>A F Prati Consulting é uma empresa que oferece serviços de engenharia aos seus clientes, no ramo de consultoria em construções.</p>
+                            <p>O ITC foi fundado em novembro de 1994 com a atividade de comércio de livros, revistas, periódicos e software nas áreas Fiscal, Contábil, Trabalhista e Previdenciária.</p>
                         </div>
                     </li>
                     <li>
                         <div className='logo-box'>
-                            <img className='logo-empresa' src={caema} alt=''></img>
+                            <img className='logo-empresa' src={pier} alt=''></img>
                         </div>
                         <div>
-                            <p>A Caema Brasil é uma empresa voltada à consultoria técnica em engenharia de materiais e novas tecnologias.</p>
+                            <p>Com o P.I.E.R. você fica sabendo o custo exato de cada hora trabalhada, de cada serviço prestado e o valor preciso do retorno sobre o investimento, além de aprimorar a gestão do negócio.</p>
                         </div>
                     </li>
                     <li>
                         <div className='logo-box'>
-                            <img className='logo-empresa' src={patriciasalmona} alt=''></img>
+                            <img className='logo-empresa' src={nuvtech} alt=''></img>
                         </div>
                         <div>
-                            <p>Dra. Patrícia Salmona é médica pediatra e geneticista especializada em Síndrome de Down. Atualmente comanda a Salmona Clínica Médica.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div className='logo-box'>
-                            <img className='logo-empresa' src={cepec} alt=''></img>
-                        </div>
-                        <div>
-                            <p>A CEPEC-SP é uma clínica de atendimento pediátrico e genético, com foco em Trissomia 21 (Síndrome de Down).</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div className='logo-box'>
-                            <img className='logo-empresa' src={equilibriumm} alt=''></img>
-                        </div>
-                        <div>
-                            <p>A Equilibriumm nasceu em 2012 com o propósito de levar a seus pacientes recursos terapêuticos  que proporcionem uma melhor qualidade de vida.</p>
+                            <p>A NuvTech é uma empresa de tecnologia da informação focada na alta produção de seus clientes desenvolvendo sistemas que automatizam processos.</p>
                         </div>
                     </li>
                 </ul>
