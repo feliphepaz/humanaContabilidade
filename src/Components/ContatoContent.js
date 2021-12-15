@@ -13,13 +13,13 @@ const ContatoContent = (props) => {
                         <li className='tel'>
                             <div>
                                 <h4>Fale conosco</h4>
-                                <a href='https://api.whatsapp.com/send?phone=5511992300024' target='_blank'>(11) 99230-0024</a>
+                                <a href='https://api.whatsapp.com/send?phone=5511991348147' target='_blank'>(11) 99134-8147</a>
                             </div>
                         </li>
                         <li className='mail'>
                             <div>
                                 <h4>E-mail</h4>
-                                <Link to=''>contato@humanacontabil.com.br</Link>
+                                <Link to=''>contato@humanacontabilidade.com.br</Link>
                             </div>
                         </li>
                     </ul>

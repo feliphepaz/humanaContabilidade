@@ -39,6 +39,12 @@
     }
 }
 
+@media (max-width: 1124px) {
+    .banner-btns {
+        display: flex;
+    }
+}
+
 @media (max-width: 1050px) {
     .banner .container {
         flex-direction: column;

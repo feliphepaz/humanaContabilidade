@@ -51,7 +51,7 @@ const Footer = () => {
                     <nav>
                         <h4>Visite</h4>
                         <ul>
-                            <li>Endereço contabil</li>
+                            <li>Endereço contábil</li>
                             <li>São Paulo - SP</li>
                             <li>00000-000</li>
                         </ul>

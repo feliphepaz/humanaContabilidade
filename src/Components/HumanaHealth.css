@@ -1,0 +1,38 @@
+.humana-health {
+    background: var(--secundaryLight);
+    padding: 100px 0;
+}
+
+.humana-health-img {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.humana-health-info {
+    width: 50%;
+}
+
+.humana-health-info p {
+    font-size: var(--size16);
+    font-weight: var(--fontMedium);
+    line-height: var(--lineHeight);
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+@media (max-width: 770px) {
+    .humana-health .container {
+        flex-direction: column;
+    }
+    .humana-health-img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .humana-health-info {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .humana-health-info p {
+        max-width: 100%;
+    }
+}
