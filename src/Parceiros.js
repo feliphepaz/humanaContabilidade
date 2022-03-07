@@ -6,7 +6,6 @@ import itc from './Assets/itc.png';
 import pier from './Assets/pier.png';
 import nuvtech from './Assets/nuvtech.png';
 
-
 const Parceiros = () => {
     return (
         <section className='parceiros-intro'>

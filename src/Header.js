@@ -58,6 +58,7 @@ function Header() {
             <li><NavLink onClick={() => window.scrollTo(0,0)} to="empresa">Empresa</NavLink></li>
             <li><NavLink onClick={() => window.scrollTo(0,0)} to="servicos">Serviços</NavLink></li>
             <li><NavLink onClick={() => window.scrollTo(0,0)} to="parceiros">Parceiros</NavLink></li>
+            <li><NavLink onClick={() => window.scrollTo(0,0)} to="noticias">Notícias</NavLink></li>
             <li><NavLink onClick={() => window.scrollTo(0,0)} to="contato">Contato</NavLink></li>
           </ul>
         </nav>
@@ -68,6 +69,7 @@ function Header() {
             <li><NavLink onClick={toTopAndClose} to="empresa">Empresa</NavLink></li>
             <li><NavLink onClick={toTopAndClose} to="servicos">Serviços</NavLink></li>
             <li><NavLink onClick={toTopAndClose} to="parceiros">Parceiros</NavLink></li>
+            <li><NavLink onClick={toTopAndClose} to="noticias">Notícias</NavLink></li>
             <li><NavLink onClick={toTopAndClose} to="contato">Contato</NavLink></li>
             <li><NavLink onClick={toTopAndClose} className='portal' to="portal">Área do Cliente</NavLink></li>
           </ul>

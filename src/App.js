@@ -6,6 +6,8 @@ import Header from './Header';
 import Footer from './Footer';
 import Empresa from './Empresa';
 import Produtos from './Produtos';
+import Noticias from './Noticias';
+import IRPF2022 from './IRPF2022'
 import Parceiros from './Parceiros';
 import Contato from './Contato';
 import Portal from './Portal';
@@ -36,6 +38,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path='empresa' element={<Empresa />} />
         <Route path='servicos' element={<Produtos />} />
+        <Route path='noticias' element={<Noticias />} />
+        <Route path='noticias/irpf2022' element={<IRPF2022 />} />
         <Route path='parceiros' element={<Parceiros />} />
         <Route path='contato' element={<Contato />} />
         <Route path='portal' element={<Portal />} />

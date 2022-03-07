@@ -61,7 +61,7 @@
 }
 
 .menu ul li {
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 .menu ul li:last-child {
@@ -107,13 +107,7 @@
     margin-top: 50px;
 }
 
-@media (max-width: 1430px) {
-    .menu ul li {
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 1280px) {
+@media (max-width: 1400px) {
     .menu, .header .container > .portal {
         display: none;
     }
