@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
+        <>
         <section className='banner'>
             <div className='container animate' data-anime='down'>
                 <div className='banner-text'>
@@ -20,6 +21,15 @@ const Banner = () => {
                 </div>
             </div>
         </section>
+
+        <section className='irpf-cta'>
+            <div className='container'>
+                <Link to="/noticias/irpf2022" onClick={() => window.scrollTo(0,0)}>
+                    <h2>Saiba tudo sobre o imposto de renda 2022!</h2>
+                </Link>
+            </div>
+        </section>
+        </>
     )
 }
 

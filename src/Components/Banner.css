@@ -80,3 +80,14 @@
         padding: 0px;
     }
 }
+
+.irpf-cta {
+    background: var(--primary);
+    margin-bottom: 60px;
+}
+
+.irpf-cta a {
+    color: var(--secundaryLight);
+    font-size: var(--size18);
+    padding: 40px 0px;
+}
