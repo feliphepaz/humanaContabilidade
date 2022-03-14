@@ -11,7 +11,12 @@ const Popup = () => {
         setTimeout(() => {
             setModal(true);
         }, 6000)
-    }, [])
+    }, []);
+
+    function handleScroll() {
+        setModal(false);
+        window.scrollTo(0,0)
+    }
 
     return (
     <>
@@ -22,7 +27,7 @@ const Popup = () => {
         <div className='pop-container'>
             <div className='pop-div1'>
                 <p>Saiba tudo sobre o imposto de renda 2022!</p>
-                <Link to="/noticias/irpf2022" onClick={() => setModal(false)} className='cta'>Clique aqui</Link>
+                <Link to="/noticias/irpf2022" onClick={() => handleScroll()} className='cta'>Clique aqui</Link>
             </div>
             <div className='pop-div2'>
                 <img src={PopupImg}></img>
