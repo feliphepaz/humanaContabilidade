@@ -4,8 +4,12 @@ import Servicos from './Components/Servicos';
 import Beneficios from './Components/Beneficios';
 import ProvaSocial from './Components/ProvaSocial';
 import ContatoContent from './Components/ContatoContent';
+import Popup from './Components/Popup';
 
 const Home = () => {
+    
+
+
     return (
         <>
         <Banner />
@@ -13,6 +17,7 @@ const Home = () => {
         <Beneficios />
         <ProvaSocial />
         <ContatoContent />
+        <Popup />
         </>
     )
 }
