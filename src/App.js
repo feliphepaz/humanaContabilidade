@@ -12,6 +12,7 @@ import Parceiros from './Parceiros';
 import Contato from './Contato';
 import Portal from './Portal';
 import Cookie from './Cookie';
+import NovoREFIS from './NovoREFIS';
 
 function animeScroll() {
     const target = document.querySelectorAll('[data-anime]');
@@ -40,6 +41,7 @@ const App = () => {
         <Route path='servicos' element={<Produtos />} />
         <Route path='noticias' element={<Noticias />} />
         <Route path='noticias/irpf2022' element={<IRPF2022 />} />
+        <Route path='noticias/novo-refis' element={<NovoREFIS />} />
         <Route path='parceiros' element={<Parceiros />} />
         <Route path='contato' element={<Contato />} />
         <Route path='portal' element={<Portal />} />
