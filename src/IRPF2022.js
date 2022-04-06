@@ -12,8 +12,8 @@ const IRPF2022 = () => {
                     <h3>Quem deve declarar o Imposto de Renda 2022?</h3>
                     <p>O imposto de renda funciona como uma tributação federal, anualmente gerenciada pelo RF. Sua prestação é obrigatória para todos aqueles que tenham tido rendimentos tributáveis superiores a R$ 28.559. No entanto, é preciso ficar atento as regras e documentações.</p>
 
-                    <h3>Prazo para entrega de informe de rendimentos vai até dia 28</h3>
-                    <p>O Imposto de Renda em 2022, que terá início no próximo dia 7 de março e vai se encerrar dia 29 de abril.</p>
+                    <h3>Prazo para entrega de informe de rendimentos vai até dia 31</h3>
+                    <p>O Imposto de Renda em 2022, que terá início no próximo dia 7 de março e vai se encerrar dia 31 de maio.</p>
 
                     <h3>Quem precisa declarar o IRPF em 2022?</h3>
                     <ul>

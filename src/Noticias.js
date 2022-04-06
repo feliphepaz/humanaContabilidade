@@ -20,7 +20,7 @@ const Noticias = () => {
                             </div>
                             <div className='title-noticia'>
                                 <h3>Veja todas as informações sobre o Imposto de Renda 2022</h3>
-                                <p>A Receita Federal divulgou nesta quinta-feira, 24, as regras para a declaração do Imposto de Renda este ano, referente ao ano de 2021. A apresentação da declaração tem início no dia 7 de março, às 8 horas, e o prazo vai até 29 de abril, às 23h59.</p>
+                                <p>A Receita Federal divulgou nesta quinta-feira, 24, as regras para a declaração do Imposto de Renda este ano, referente ao ano de 2021. A apresentação da declaração tem início no dia 7 de março, às 8 horas, e o prazo vai até 31 de maio, às 23h59.</p>
                             </div>
                         </li>
                     </Link>
